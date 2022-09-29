@@ -25,7 +25,16 @@ const Home = () => {
             <div className="practise-time">
                 <div></div>
                 <div></div>
-                <div></div>
+                <h3>Exercise Details</h3>
+                <div className="detail-container">
+                    <h5>Exercise time:</h5>
+                    <p>0</p>
+                </div>
+
+                <div className="detail-container">
+                    <h5>Break time:</h5>
+                    <p>0</p>
+                </div>
             </div>
         </div>
     );
