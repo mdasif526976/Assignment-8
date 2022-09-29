@@ -2,8 +2,17 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
-.practise{
+.practise-container{
     background-color: rgb(231 219 219);
+}
+.practise-container h1{
+    color: #87c9dd;;
+    font-style: italic;
+}
+.practise-iteam{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
 }
 .practise-time{
     background-color: aliceblue;
