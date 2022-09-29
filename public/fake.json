@@ -1,0 +1,44 @@
+[
+    {
+        "id":"1",
+        "titite":"Push Up",
+        "img":"https://ibb.co/DfJ1Mgh",
+        "age":"20-25",
+        "time":30
+    },
+    {
+        "id":"2",
+        "titite":"Skipping",
+        "img":"https://ibb.co/VpL03CB",
+        "age":"20-25",
+        "time":40
+    },
+    {
+        "id":"3",
+        "titite":"Cycling",
+        "img":"https://ibb.co/mN1CdRM",
+        "age":"20-25",
+        "time":60
+    },
+    {
+        "id":"4",
+        "titite":"Holding Dumbbell",
+        "img":"https://ibb.co/M1gZtJH",
+        "age":"20-25",
+        "time":20
+    },
+    {
+        "id":"5",
+        "titite":" Lifting Barbell",
+        "img":"https://ibb.co/3MYDJ1T",
+        "age":"20-25",
+        "time":55
+    },
+    {
+        "id":"6",
+        "titite":"Running",
+        "img":"https://ibb.co/nc9hBQT",
+        "age":"20-25",
+        "time":60
+    }
+]

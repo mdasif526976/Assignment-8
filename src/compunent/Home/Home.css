@@ -1,0 +1,11 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.practise{
+    background-color: rgb(231 219 219);
+}
+.practise-time{
+    background-color: aliceblue;
+    /* background-color: white; */
+}
