@@ -1,0 +1,8 @@
+.detail-container{
+    display: flex;
+    margin: 0px 0px 10px 10px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #CCCCCC;
+    border-radius:20px ;
+}

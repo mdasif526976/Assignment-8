@@ -1,16 +1,20 @@
 import "./Home/Home.css"
 import React, { useEffect, useState } from 'react';
 import Practise from "./Practise/Practise";
+import Counter from "./Counter/Counter";
 
 const Home = () => {
     const [carts,setcart] = useState([]);
+    const [taskTime,setTaskTime] = useState([])
     useEffect(()=>{
         fetch('fake.json')
         .then(res => res.json())
         .then(data => setcart(data))
     },[])
-    const counter= (cart)=>{
-     console.log(cart);
+    const counter= (array)=>{
+        const newAray = [...taskTime,array];
+        setTaskTime(newAray);
+
     }
     return (
         <div className="home-container">
@@ -23,18 +27,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="practise-time">
-                <div></div>
-                <div></div>
-                <h3>Exercise Details</h3>
-                <div className="detail-container">
-                    <h5>Exercise time:</h5>
-                    <p>0</p>
-                </div>
-
-                <div className="detail-container">
-                    <h5>Break time:</h5>
-                    <p>0</p>
-                </div>
+               <Counter taskTime={taskTime}></Counter>
             </div>
         </div>
     );
