@@ -6,7 +6,7 @@
     background-color: rgb(231 219 219);
 }
 .practise-container h1{
-    color: #87c9dd;;
+    color: #87c9dd;
     font-style: italic;
 }
 .practise-iteam{
@@ -14,9 +14,56 @@
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
 }
-.practise-time{
+/* .practise-time{
     background-color: aliceblue;
-    position: static;
+    position: fixed;
+    right: 0;
     top: 0;
-    padding: 30px 20px;
+    padding: 30px 80px;
+} */
+@media only screen and (max-width: 766px) and (min-width: 365px) {
+    .home-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .practise-iteam{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+    .practise-time{
+        background-color: aliceblue;
+       position: fixed;
+       right: 0;
+       left: 50%;
+       top: 0;
+    }
+    .practise-container h1{
+        color: #87c9dd;
+        margin-right:16%;
+        font-size: small;
+        font-style: italic;
+    }
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .home-container{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        
+    }
+    .practise-iteam{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+    /* .practise-time{
+       background-color: aliceblue;
+       position: fixed;
+       right: 0px;
+       left: 80%;
+       margin-right: 10px;
+       top: 0;
+    } */
+
 }
