@@ -2,42 +2,42 @@
     {
         "id":"1",
         "titite":"Push Up",
-        "img":"https://ibb.co/DfJ1Mgh",
+        "img":"https://i.ibb.co/GQ6dM3y/pexels-ketut-subiyanto-4720303.jpg",
         "age":"20-25",
         "time":30
     },
     {
         "id":"2",
         "titite":"Skipping",
-        "img":"https://ibb.co/VpL03CB",
+        "img":"https://i.ibb.co/YTN4bdj/pexels-rodnae-productions-8401193.jpg",
         "age":"20-25",
         "time":40
     },
     {
         "id":"3",
         "titite":"Cycling",
-        "img":"https://ibb.co/mN1CdRM",
+        "img":"https://i.ibb.co/BndVvfS/pexels-ivan-samkov-4162595.jpg",
         "age":"20-25",
         "time":60
     },
     {
         "id":"4",
         "titite":"Holding Dumbbell",
-        "img":"https://ibb.co/M1gZtJH",
+        "img":"https://i.ibb.co/FYhmyd1/pexels-andrea-piacquadio-3917334.jpg",
         "age":"20-25",
         "time":20
     },
     {
         "id":"5",
         "titite":" Lifting Barbell",
-        "img":"https://ibb.co/3MYDJ1T",
+        "img":"https://i.ibb.co/k96RdKG/pexels-victor-freitas-841128.jpg",
         "age":"20-25",
         "time":55
     },
     {
         "id":"6",
         "titite":"Running",
-        "img":"https://ibb.co/nc9hBQT",
+        "img":"https://i.ibb.co/0MTPKYk/pexels-pixabay-35009.jpg",
         "age":"20-25",
         "time":60
     }

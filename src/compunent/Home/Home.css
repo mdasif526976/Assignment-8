@@ -16,7 +16,7 @@
 }
 .practise-time{
     background-color: aliceblue;
-    position: sticky;
+    position: static;
     top: 0;
     padding: 30px 20px;
 }
