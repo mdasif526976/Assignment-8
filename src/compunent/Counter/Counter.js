@@ -24,7 +24,7 @@ const Counter = (props) => {
         <div>
              <div className='user'>
                <h5> User Name:Md Asif <br></br>Location:Brahmanbaraia</h5>
-               {/* <h5>Location:Brahmanbaraia</h5> */}
+        
              </div>
                <Break btn1={handler10} btn2={handler20} btn3={handler30} btn4={handler40}></Break>
                 <h3>Exercise Details</h3>
